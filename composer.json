@@ -1,0 +1,17 @@
+{
+    "name": "rihnovec-dev/browser-cache",
+    "autoload": {
+        "psr-4": {
+            "RihnovecDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Rikhnovets",
+            "email": "rihnovec93@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}

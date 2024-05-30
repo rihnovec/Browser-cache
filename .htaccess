@@ -1,0 +1,8 @@
+<IfModule mod_expires.c>
+  ExpiresByType text/css "access plus 1 month" 
+  ExpiresByType text/javascript "access plus 1 month"
+</IfModule>
+
+<FilesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=2592000, must-revalidate"
+</FilesMatch>

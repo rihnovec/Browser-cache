@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 500 20px / 28px 'Helvetica', sans-serif;
+  padding: 20px;
+}
+
+.message {
+  background-color: #ccc;
+  color: #333;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
